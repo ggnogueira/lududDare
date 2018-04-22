@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/special_bar_lvl3.png-ff7ac1212fd189778c201afb125d11b7.stex"
+path="res://.import/over_layer.png-7873f7d46cd633405b7de41f0ac5b544.stex"
 
 [deps]
 
-source_file="res://Images/HUD/special_bar_lvl3.png"
-source_md5="6e6ceed4ba7dd02128e750e7f665b824"
+source_file="res://Images/HUD/over_layer.png"
+source_md5="6e3e4a52d799b8bbcbe8ef54ce375968"
 
-dest_files=[ "res://.import/special_bar_lvl3.png-ff7ac1212fd189778c201afb125d11b7.stex" ]
-dest_md5="33437b8d5957c82bb5f3801397c2a0c0"
+dest_files=[ "res://.import/over_layer.png-7873f7d46cd633405b7de41f0ac5b544.stex" ]
+dest_md5="ccc4f8d2295d0ed35402db21c2ecfddd"
 
 [params]
 
