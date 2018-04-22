@@ -1,0 +1,117 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Sprites/Images/Parallax/bulkhead-walls-files/bulkhead-walls-files/layers/bulkhead-walls-back.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Images/Parallax/bulkhead-walls-files/bulkhead-walls-files/layers/cols.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Images/Parallax/bulkhead-walls-files/bulkhead-walls-files/layers/bulkhead-walls-pipes.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Images/Parallax/bulkhead-walls-files/bulkhead-walls-files/layers/bulkhead-walls-platform.png" type="Texture" id=4]
+
+[node name="Control" type="Control"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." index="0"]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = true
+
+[node name="background" type="ParallaxLayer" parent="ParallaxBackground" index="0"]
+
+editor/display_folded = true
+motion_scale = Vector2( 1, 1 )
+motion_offset = Vector2( 0, 0 )
+motion_mirroring = Vector2( 320, 0 )
+_sections_unfolded = [ "Motion" ]
+
+[node name="bulkhead-walls-back" type="Sprite" parent="ParallaxBackground/background" index="0"]
+
+position = Vector2( 0, -40 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 320, 250 )
+_sections_unfolded = [ "Region" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="cols" type="ParallaxLayer" parent="ParallaxBackground" index="1"]
+
+editor/display_folded = true
+motion_scale = Vector2( 1, 1 )
+motion_offset = Vector2( 0, 0 )
+motion_mirroring = Vector2( 320, 0 )
+_sections_unfolded = [ "Motion" ]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/cols" index="0"]
+
+position = Vector2( 0, -40 )
+texture = ExtResource( 2 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 320, 180 )
+_sections_unfolded = [ "Region" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="pipes" type="ParallaxLayer" parent="ParallaxBackground" index="2"]
+
+editor/display_folded = true
+motion_scale = Vector2( 1, 1 )
+motion_offset = Vector2( 0.6, 0 )
+motion_mirroring = Vector2( 320, 0 )
+_sections_unfolded = [ "Motion" ]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/pipes" index="0"]
+
+position = Vector2( 0, -50 )
+texture = ExtResource( 3 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 320, 180 )
+_sections_unfolded = [ "Region" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="plataform" type="ParallaxLayer" parent="ParallaxBackground" index="3"]
+
+editor/display_folded = true
+motion_scale = Vector2( 1, 1 )
+motion_offset = Vector2( 0, 0 )
+motion_mirroring = Vector2( 320, 0 )
+_sections_unfolded = [ "Motion" ]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/plataform" index="0"]
+
+position = Vector2( 0, -40 )
+texture = ExtResource( 4 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 320, 180 )
+_sections_unfolded = [ "Region" ]
+__meta__ = {
+"_edit_lock_": true
+}
+
+
