@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Keyboard_Black_W.png-08569d2d2eae309ed5f0153c5a7224aa.stex"
+
+[deps]
+
+source_file="res://Images/Keyboard & Mouse/Dark/Keyboard_Black_W.png"
+source_md5="1ac80b789525139657586c27f94d7590"
+
+dest_files=[ "res://.import/Keyboard_Black_W.png-08569d2d2eae309ed5f0153c5a7224aa.stex" ]
+dest_md5="e9b0e2e60b3d183339b260f67ad85942"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
