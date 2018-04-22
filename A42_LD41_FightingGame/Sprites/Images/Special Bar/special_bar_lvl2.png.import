@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/special_bar_lvl2.png-d2320a86c7b42ed6c59744e12aa4b2c0.stex"
+
+[deps]
+
+source_file="res://Sprites/Images/Special Bar/special_bar_lvl2.png"
+source_md5="94c11b5afae94a7f501d7b955bd7fd84"
+
+dest_files=[ "res://.import/special_bar_lvl2.png-d2320a86c7b42ed6c59744e12aa4b2c0.stex" ]
+dest_md5="7a1e58abd096546f49839c289ca49c72"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
